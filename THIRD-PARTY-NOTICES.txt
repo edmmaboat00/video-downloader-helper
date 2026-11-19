@@ -1,0 +1,16 @@
+Video Downloader Helper includes or downloads the following software.
+
+yt-dlp (yt-dlp.exe)
+  https://github.com/yt-dlp/yt-dlp
+  Released into the public domain under the Unlicense.
+
+Python runtime (inside vd-helper.exe and the _internal folder, packaged with PyInstaller)
+  https://www.python.org - Python Software Foundation License.
+  https://pyinstaller.org - GPL 2.0 with an exception that allows distributing packaged programs.
+
+Deno (deno\deno.exe, downloaded by setup from https://github.com/denoland/deno when needed)
+  MIT License, Copyright 2018-2026 the Deno authors.
+
+FFmpeg (ffmpeg\ffmpeg.exe, downloaded by setup from https://github.com/eugeneware/ffmpeg-static when needed)
+  FFmpeg is licensed under the GNU General Public License version 3. Its license text is saved as
+  ffmpeg\LICENSE.txt. Source code: https://ffmpeg.org/download.html
